@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test') { 
             steps {
-                sh 'echo "TestingIREMOVEDTHIS..."' 
+                sh 'echo "I added this only in the main branch!"'
             }
         }
         stage('Deploy') { 
