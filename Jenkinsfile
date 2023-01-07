@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test') { 
             steps {
-                sh 'echo "TestingIREMOVEDTHIS..."' 
+                sh 'echo "I wrote this only in DEV!"'
             }
         }
         stage('Deploy') { 
